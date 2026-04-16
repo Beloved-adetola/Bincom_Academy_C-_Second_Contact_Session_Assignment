@@ -95,3 +95,4 @@ C:\Users\usetr\MyCSharpApp\MVC-Portfolio\obj\Debug\net10.0\refint\MVC-Portfolio.
 C:\Users\usetr\MyCSharpApp\MVC-Portfolio\obj\Debug\net10.0\MVC-Portfolio.pdb
 C:\Users\usetr\MyCSharpApp\MVC-Portfolio\obj\Debug\net10.0\MVC-Portfolio.genruntimeconfig.cache
 C:\Users\usetr\MyCSharpApp\MVC-Portfolio\obj\Debug\net10.0\ref\MVC-Portfolio.dll
+C:\Users\usetr\MyCSharpApp\MVC-Portfolio\obj\Debug\net10.0\MVC-Portfolio.sourcelink.json
