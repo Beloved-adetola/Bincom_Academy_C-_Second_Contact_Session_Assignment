@@ -39,13 +39,48 @@ public class HomeController : Controller
 
     private decimal CalculateTax(decimal income)
 {
-    if (income <= 300000) return income * 0.07m;
-    else if (income <= 600000) return income * 0.11m;
-    else if (income <= 1100000) return income * 0.15m;
-    else if (income <= 1600000) return income * 0.19m;
-    else if (income <= 3200000) return income * 0.21m;
-    else return income * 0.24m;
+    decimal tax = 0;
+
+    if (income > 300000)
+    {
+        tax += 300000 * 0.07m;
+        income -= 300000;
+    }
+    else return income * 0.07m;
+
+    if (income > 300000)
+    {
+        tax += 300000 * 0.11m;
+        income -= 300000;
+    }
+    else return tax + (income * 0.11m);
+
+    if (income > 500000)
+    {
+        tax += 500000 * 0.15m;
+        income -= 500000;
+    }
+    else return tax + (income * 0.15m);
+
+    if (income > 500000)
+    {
+        tax += 500000 * 0.19m;
+        income -= 500000;
+    }
+    else return tax + (income * 0.19m);
+
+    if (income > 1600000)
+    {
+        tax += 1600000 * 0.21m;
+        income -= 1600000;
+    }
+    else return tax + (income * 0.21m);
+
+    tax += income * 0.24m;
+
+    return tax;
 }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

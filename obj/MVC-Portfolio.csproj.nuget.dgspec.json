@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj": {}
+    "c:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj": {
+    "c:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj",
+        "projectUniqueName": "c:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj",
         "projectName": "MVC-Portfolio",
-        "projectPath": "C:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj",
+        "projectPath": "c:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\MVC-Portfolio.csproj",
         "packagesPath": "C:\\Users\\usetr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\obj\\",
+        "outputPath": "c:\\Users\\usetr\\MyCSharpApp\\MVC-Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usetr\\AppData\\Roaming\\NuGet\\NuGet.Config"
